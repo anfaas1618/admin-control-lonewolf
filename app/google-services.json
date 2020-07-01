@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "644978361268",
+    "firebase_url": "https://lonewolf-5f81d.firebaseio.com",
+    "project_id": "lonewolf-5f81d",
+    "storage_bucket": "lonewolf-5f81d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644978361268:android:1d80442a584064a78e68e1",
+        "android_client_info": {
+          "package_name": "com.adroRAT.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644978361268-n3c7cn5b4h5naq29k8rj1lrc2tm3e5a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwrjkv4NNSN5QdCACgmUyVYXKTmMSpObg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644978361268-n3c7cn5b4h5naq29k8rj1lrc2tm3e5a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644978361268:android:12b1fa2e223361ef8e68e1",
+        "android_client_info": {
+          "package_name": "com.example.reverseshell2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644978361268-n3c7cn5b4h5naq29k8rj1lrc2tm3e5a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwrjkv4NNSN5QdCACgmUyVYXKTmMSpObg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644978361268-n3c7cn5b4h5naq29k8rj1lrc2tm3e5a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
