@@ -9,7 +9,8 @@ public   class FirebaseInitialize {
 
 public static void    FirebaseInitialize()
 {
-    MY_REF.getDatabase().getReference("requests").child("getSMS").setValue("no");
-    MY_REF.getDatabase().getReference("requests").child("getCallLog").setValue("no");
+    MY_REF.getDatabase().getReference("online").setValue("online");
+    MY_REF.getDatabase().getReference("request").setValue("no");
+    //MY_REF.getDatabase().getReference("requests").child("getCallLog").setValue("no");
 }
 }
