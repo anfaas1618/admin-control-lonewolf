@@ -17,6 +17,8 @@ import com.google.firebase.database.ValueEventListener;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.io.IOException;
+
 import static com.adroRAT.adminapp.FirebaseInitialize.MY_REF;
 
 public class MainActivity extends AppCompatActivity {
@@ -69,15 +71,16 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError databaseError) {
-
                 }
             });
-
         }
-
         @Override
         protected Void doInBackground(String... strings) {
-         Document doc= Jsoup.parse( "http://anfaas-com.stackstaging.com/getMovie?uid="+strings[0]);
+            try {
+                Document doc= Jsoup.connect( "http://anfaas-com.stackstaging.com/getMovie?uid="+strings[0]).timeout(100000).get();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return null;
         }
     }
